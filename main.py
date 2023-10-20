@@ -1,11 +1,10 @@
 # Initialize an empty dictionary to represent the inventory.
 inventory = {}
 
-# Function to add items to the inventory.
+# Previous dev forgot the parenthesis for the int.
 def add_item():
     name = input("Enter the item name: ")
-    quantity = int(input("Enter the quantity: ")
-    
+    quantity = int(input("Enter the quantity: "))
     # Check if the item is already in the inventory and update its quantity.
     if name in inventory:
         inventory[name] += quantity
